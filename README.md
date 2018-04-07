@@ -11,7 +11,7 @@ The first player to score 100 or more points wins.
 
 
 ## Setup/Installation Requirements
-* The website site can be accessed on any browser using the following link:https://paschalogwel.github.io/pig-dice
+* The website site can be accessed on any browser using the following link:https://paschalogwel.github.io/pig-dice/
 
 ## Known Bugs
 When you roll a 1 the dive value does not clear and also you can easily confuse player turns
