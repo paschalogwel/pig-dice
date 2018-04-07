@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  <div id="rules">
   <div class="jumbotron">
     <h1>PIG DICE GAME</h1>
   </div>
@@ -20,31 +21,42 @@
     <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
   </ul>
   <p>The first player to score 100 points wins.</p>
-  <button type="submit" class="btn btn-warning">Start Game</button>
+  <label for="player 1">Player 1 Name</label>
+  <input type="text" class="form-control" id="one">
+  <label for="player 2">Player 2 Name</label>
+  <input type="text" class="form-control" id="two">
+  <button type="submit" class="btn btn-warning" id="start">Start Game</button>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <label for="player 1">Player 1 Name</label>
-        <input type="text" class="form-control">
-        <button type="submit" class="btn btn-primary" id="roll1">Roll dice</button>
-        <button type="submit" class="btn btn-primary">Hold</button>
-        <h3>Current Score:</h3>
-        <h3>Total Score:</h3>
-        <div id="output1">
 
-        </div>
+        <button type="submit" class="btn btn-primary" id="roll1">Roll dice</button>
+        <button type="submit" class="btn btn-primary" id="hold1">Hold</button>
+        <h2 id="name1"></h2>
+        <h2 id="diceRoll1">Dice Roll:</h2>
+        <h3 id="current1">Current Score:</h3>
+        <h3 id="total1">Total Score:</h3>
+
+
+
       </div>
       <div class="col-md-6">
-        <label for="player 2">Player 2 Name</label>
-        <input type="text" class="form-control">
-        <button type="submit" class="btn btn-primary">Roll dice</button>
-        <button type="submit" class="btn btn-primary">Hold</button>
-        <h3>Current Score:</h3>
-        <h3>Total Score:</h3>
-        <div id="output1">
-        </div>
+
+        <button type="submit" class="btn btn-primary" id="roll2">Roll dice</button>
+        <button type="submit" class="btn btn-primary" id="hold2">Hold</button>
+        <h2 id="name2"></h2>
+        <h2 id="diceRoll2">Dice Roll:</h2>
+        <h3 id="current2">Current Score:</h3>
+        <h3 id="total2">Total Score:</h3>
+
+      </div>
+      <div >
+        <button type="submit" class="btn btn-danger" id="newgame">NEW GAME</button>
+
       </div>
     </div>
+  </div>
 
 
     <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
