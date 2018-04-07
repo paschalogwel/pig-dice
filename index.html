@@ -4,6 +4,8 @@
 <head>
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded|Black+Ops+One|Bungee+Inline|Creepster|Flavors|Ranchers" rel="stylesheet">
+
   <meta charset="utf-8">
   <title>Pig Dice Game</title>
 </head>
@@ -11,7 +13,7 @@
 <body>
   <div id="rules">
   <div class="jumbotron">
-    <h1>PIG DICE GAME</h1>
+    <h1><img src="img/dice2.gif" alt="">PIG DICE GAME <img src="img/dice.gif" alt=""> </h1>
   </div>
   <h2>Gameplay</h2>
   <p>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":</p>
@@ -22,14 +24,15 @@
   </ul>
   <p>The first player to score 100 points wins.</p>
   <label for="player 1">Player 1 Name</label>
-  <input type="text" class="form-control" id="one">
+  <input type="text" class="form-contro" id="one">
   <label for="player 2">Player 2 Name</label>
-  <input type="text" class="form-control" id="two">
+  <input type="text" class="form-contro" id="two">
   <button type="submit" class="btn btn-warning" id="start">Start Game</button>
   </div>
   <div class="container">
     <div class="row">
       <div class="col-md-6">
+        <img src="img/p1.jpg" alt="" id="p1"><br>
 
         <button type="submit" class="btn btn-primary" id="roll1">Roll dice</button>
         <button type="submit" class="btn btn-primary" id="hold1">Hold</button>
@@ -42,7 +45,7 @@
 
       </div>
       <div class="col-md-6">
-
+<img src="img/p2.jpg" alt="" id="p2"><br>
         <button type="submit" class="btn btn-primary" id="roll2">Roll dice</button>
         <button type="submit" class="btn btn-primary" id="hold2">Hold</button>
         <h2 id="name2"></h2>

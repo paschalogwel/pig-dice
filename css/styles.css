@@ -1,3 +1,56 @@
 .container{
   display: none;
 }
+h1{
+  text-align: center;
+  font-family: 'Black Ops One', cursive;
+  color: white;
+}
+h2{
+  font-size: 50px;
+  font-family: 'Bungee Inline', cursive;
+  color: #37aff7;
+}
+h3{
+  font-size: 40px;
+  font-family: 'Ranchers', cursive;
+    color: #37aff7;
+}
+p{
+  font-size: 30px;
+  font-family: 'BioRhyme Expanded', serif;
+    color: #37aff7;
+}
+li{
+  font-size: 25px;
+  font-family: 'Creepster', cursive;
+    color: #37aff7;
+}
+#name1{
+  font-family: 'Flavors', cursive;
+    color: white;
+}
+#name2{
+font-family: 'Flavors', cursive;
+  color: white;
+}
+body{
+  /* background-color: #408ec9; */
+  background-image: url(../img/dice.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+label{
+    color: #37aff7;
+}
+.jumbotron{
+  background-color:#171547;
+}
+#p1{
+  border-radius: 100%;
+  width: 200px;
+}
+#p2{
+  border-radius: 100%;
+  width: 200px;
+}

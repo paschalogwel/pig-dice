@@ -18,7 +18,7 @@ var player2 = new Player(0, 0, 0);
 Player.prototype.diceOne = function () {
   if (this.roll === 1) {
     this.currentScore = 0;
-    alert("you rolled a one so your turn ends");
+    alert("you rolled a 1 so your turn ends");
   }
   else {
     this.currentScore += this.roll;
@@ -63,14 +63,14 @@ $(document).ready(function() {
     // if player 1 plays
 $("#roll1").click(function(){
   player1.roll = dice()
-  $("h2#diceRoll1").text("Dice Value:" + player1.roll);
+  $("h2#diceRoll1").text("Dice Roll:" + player1.roll);
   player1.diceOne();
   $("#current1").text("Current Score:" + player1.currentScore);
 });
 // if player 2 plays
 $("#roll2").click(function(){
   player2.roll = dice()
-  $("h2#diceRoll2").text("Dice Value:" + player2.roll);
+  $("h2#diceRoll2").text("Dice Roll:" + player2.roll);
   player2.diceOne();
   $("#current2").text("Current Score:" + player2.currentScore);
 });
