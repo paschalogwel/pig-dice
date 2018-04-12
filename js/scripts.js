@@ -50,7 +50,7 @@ Player.prototype.winner = function () {
 // user interface logic
 // starting a the game
 $(document).ready(function() {
-  $("#start").click(function(){
+  $("#start").click(function(event){
     event.preventDefault();
     $("#rules").hide();
     $(".container").show();
